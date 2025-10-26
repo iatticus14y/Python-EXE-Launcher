@@ -1,0 +1,16 @@
+   pillow
+   pywin32
+   pyinstaller
+```
+
+3. **The Python files**:
+   - `launcher.py`
+   - Maybe a sample `launcher_icon.ico`
+
+4. **.gitignore** to exclude:
+```
+   __pycache__/
+   build/
+   dist/
+   *.spec
+   launcher_config.json
